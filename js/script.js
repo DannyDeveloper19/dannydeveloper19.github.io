@@ -54,7 +54,7 @@ $().ready(function () {
 
   $(window).scroll(function () {
     if (window.pageYOffset > 0) {
-      $('#sidebar-collapse').attr('style', 'top:50px;')
+      $('#sidebar-collapse').attr('style', 'top:44px;')
     }else {
       $('#sidebar-collapse').attr('style', 'top:120px;')
     }
