@@ -52,13 +52,13 @@ $().ready(function () {
     }
   })
 
-  /*$(window).scroll(function () {
+  $(window).scroll(function () {
     if (window.pageYOffset > 0) {
-      $('#sidebar-collapse').attr('style', 'top:44px;')
+      $('#sidebar-collapse').attr('style', 'top:50px;')
     }else {
       $('#sidebar-collapse').attr('style', 'top:120px;')
     }
-  })*/
+  })
 
   $('#navbar-collapse').on('mousedown', function () {
     $('#main-menu').toggleClass('active')
